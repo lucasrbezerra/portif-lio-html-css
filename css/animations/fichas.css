@@ -1,0 +1,57 @@
+.flip-box-fichas {
+    background-color: transparent;
+    width: 300px;
+    height: 300px;
+    perspective: 1000px; /* Remove this if you don't want the 3D effect */
+    margin-left: 20px;
+}
+  
+  /* This container is needed to position the front and back side */
+  .flip-box-inner-fichas {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+  }
+  
+  /* Do an horizontal flip when you move the mouse over the flip box container */
+  .flip-box-fichas:hover .flip-box-inner-fichas {
+    transform: rotateY(180deg);
+  }
+  
+  /* Position the front and back side */
+  .flip-box-front-fichas,
+  .flip-box-back-fichas {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden; /* Safari */
+    backface-visibility: hidden;
+  }
+  
+  /* Style the front side (fallback if image is missing) */
+  .flip-box-front-fichas {
+    background-color: #bbb;
+    color: black;
+  }
+  
+  /* Style the back side */
+  .flip-box-back-fichas {
+    background-color: #660000;
+    color: white;
+    transform: rotateY(180deg);
+  }
+  
+  .flip-box-back-fichas h2 {
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+    margin-top: 35%;
+  }
+  
+  .flip-box-back-fichas p {
+    font-size: 15px;
+    color: white;
+    margin-top: 10px;
+  }

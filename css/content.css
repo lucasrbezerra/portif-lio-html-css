@@ -1,0 +1,149 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+  font-family: nunito, sans-serif;
+}
+
+.content {
+  position: absolute;
+  height: 100%;
+  width: 80%;
+  left: 20%;
+  background-color: #000000;
+  overflow-y: auto;
+  padding: 0 3%;
+}
+
+.content h1 {
+  color: aqua;
+}
+
+.content h2 {
+  color: aqua;
+}
+
+.content p {
+  color: white;
+}
+
+/* Descrição */
+
+.description {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
+  height: 100vh;
+}
+
+.description h1 {
+  color: #bb86fc;
+  font-size: 80px;
+  font-family: "Josefin Sans", sans-serif;
+  margin-left: -7.5px;
+}
+
+.description p.about {
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+.tools h3 {
+  color: aqua;
+  margin-top: 30px;
+}
+
+.tools-icons i {
+  margin-top: 20px;
+}
+
+.tools-icons i.fa-html5 {
+  color: #d2691e;
+  font-size: 50px;
+}
+
+.tools-icons i.fa-css3 {
+  color: aqua;
+  font-size: 50px;
+  margin-left: 15px;
+}
+
+.tools-icons i.fa-node {
+  color: greenyellow;
+  font-size: 50px;
+  margin-left: 15px;
+}
+
+.tools-icons i.fa-react {
+  color: aqua;
+  font-size: 50px;
+  margin-left: 15px;
+}
+
+/*Trabalhos*/
+
+.works {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
+  height: 100vh;
+}
+
+.works-title {
+  margin-bottom: 20px;
+  color: aqua;
+  font-size: 22px;
+}
+
+.cards {
+  display: flex;
+}
+
+.works img {
+  height: 300px;
+  width: 300px;
+}
+
+/*Contato*/
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+}
+
+.contact h3 {
+  margin-top: 20px;
+  color: white;
+}
+
+.contact i {
+  color: turquoise;
+  margin-right: 15px;
+}
+
+.social {
+  margin-top: 25px;
+}
+
+.social a {
+  font-size: 55px;
+}
+
+.social i.fa-linkedin {
+  color: #0e76a8;
+}
+
+.social i.fa-facebook {
+  color: #3b5998;
+  margin-left: 20px;
+}
+
+.social i.fa-github-square {
+  color: white;
+  margin-left: 20px;
+}
