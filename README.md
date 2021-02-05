@@ -1,4 +1,4 @@
-# portifólio-html-css
+# portfólio-html-css
 
 Projeto para praticar operações básicas em HTML5 e CSS3, sendo um portifólio com tópicos:
 
